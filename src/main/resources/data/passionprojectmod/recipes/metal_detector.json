@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " S$",
+    " S ",
+    "#D#"
+  ],
+  "key": {
+    "#": {
+      "item":"minecraft:iron_block"
+    },
+    "S": {
+      "item":"minecraft:stick"
+    },
+    "$": {
+      "item":"minecraft:cobblestone_slab"
+    },
+    "D": {
+      "item": "minecraft:diamond_block"
+    }
+  },
+  "result":{
+    "item":"passionprojectmod:metal_detector"
+  }
+}

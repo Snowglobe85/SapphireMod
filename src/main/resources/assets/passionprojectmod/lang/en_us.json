@@ -1,0 +1,19 @@
+{
+  "item.passionprojectmod.sapphire": "Sapphire",
+  "item.passionprojectmod.raw_sapphire": "Raw Sapphire",
+  "item.passionprojectmod.metal_detector": "Metal Detector",
+  "item.passionprojectmod.strawberry": "Strawberry",
+  "item.passionprojectmod.pine_cone": "Pine Cone",
+
+  "block.passionprojectmod.sapphire_block":"Block of Sapphire",
+  "block.passionprojectmod.raw_sapphire_block":"Block of Raw Sapphire",
+  "block.passionprojectmod.sapphire_ore":"Sapphire Ore",
+  "block.passionprojectmod.deepslate_sapphire_ore":"Deepslate Sapphire Ore",
+  "block.passionprojectmod.nether_sapphire_ore":"Nether Sapphire Ore",
+  "block.passionprojectmod.end_stone_sapphire_ore":"Endstone Sapphire Ore",
+  "block.passionprojectmod.sound_block":"Sound Block",
+
+  "tooltip.passionprojectmod.metal_detector.tooltip": "Finds ores underground!",
+
+  "creativetab.tutorial_tab": "Mod Stuff"
+}

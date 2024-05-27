@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 450,
+  "experience": 6.3,
+  "group": "sapphire_block",
+  "ingredient": {
+    "item": "passionprojectmod:raw_sapphire_block"
+  },
+  "result": "passionprojectmod:sapphire_block"
+}
