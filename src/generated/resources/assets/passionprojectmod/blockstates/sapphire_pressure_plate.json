@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "passionprojectmod:block/sapphire_pressure_plate"
+    },
+    "powered=true": {
+      "model": "passionprojectmod:block/sapphire_pressure_plate_down"
+    }
+  }
+}

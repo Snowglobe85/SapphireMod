@@ -37,6 +37,16 @@ public class ModCreativeModeTabs {
 
                     output.accept(ModBlocks.SOUND_BLOCK.get());
 
+                    output.accept(ModBlocks.SAPPHIRE_DOOR.get());
+                    output.accept(ModBlocks.SAPPHIRE_TRAPDOOR.get());
+                    output.accept(ModBlocks.SAPPHIRE_FENCE.get());
+                    output.accept(ModBlocks.SAPPHIRE_FENCE_GATE.get());
+                    output.accept(ModBlocks.SAPPHIRE_BUTTON.get());
+                    output.accept(ModBlocks.SAPPHIRE_PRESSURE_PLATE.get());
+                    output.accept(ModBlocks.SAPPHIRE_WALL.get());
+                    output.accept(ModBlocks.SAPPHIRE_SLAB.get());
+                    output.accept(ModBlocks.SAPPHIRE_STAIRS.get());
+
                     output.accept(ModItems.SAPPHIRE_STAFF.get());
                     output.accept(ModItems.SAPPHIRE_SWORD.get());
                     output.accept(ModItems.SAPPHIRE_AXE.get());

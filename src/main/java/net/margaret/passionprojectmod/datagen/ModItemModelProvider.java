@@ -29,9 +29,9 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         simpleBlockItem(ModBlocks.SAPPHIRE_DOOR);
 
-        fenceItem(ModBlocks.SAPPHIRE_FENCE);
-
-
+        fenceItem(ModBlocks.SAPPHIRE_FENCE, ModBlocks.SAPPHIRE_BLOCK);
+        buttonItem(ModBlocks.SAPPHIRE_BUTTON, ModBlocks.SAPPHIRE_BLOCK);
+        wallItem(ModBlocks.SAPPHIRE_WALL, ModBlocks.SAPPHIRE_BLOCK);
 
         handheldItem(ModItems.SAPPHIRE_SWORD);
         handheldItem(ModItems.SAPPHIRE_AXE);
@@ -62,11 +62,10 @@ public class ModItemModelProvider extends ItemModelProvider {
                 .texture("wall", new ResourceLocation(PassionProjectMod.MOD_ID,"block/"+ ForgeRegistries.BLOCKS.getKey(baseBlock.get()).getPath()));
     }
 
-    private ItemModelBuilder simpleBlockItem(RegistryObject<Item> item) {
+    private ItemModelBuilder simpleBlockItem(RegistryObject<Block> item) {
         return withExistingParent(item.getId().getPath(),
                 new ResourceLocation("item/generated")).texture("layer0",
-                new ResourceLocation(PassionProjectMod.MOD_ID, "item/" + item.getId().getPath()));
-    }
+                new ResourceLocation(PassionProjectMod.MOD_ID,"item/" + item.getId().getPath()));}
 
 
 

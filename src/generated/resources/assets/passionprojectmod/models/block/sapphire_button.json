@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button",
+  "textures": {
+    "texture": "passionprojectmod:block/sapphire_block"
+  }
+}
