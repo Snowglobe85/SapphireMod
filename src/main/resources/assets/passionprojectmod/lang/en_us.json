@@ -4,6 +4,13 @@
   "item.passionprojectmod.metal_detector": "Metal Detector",
   "item.passionprojectmod.strawberry": "Strawberry",
   "item.passionprojectmod.pine_cone": "Pine Cone",
+  "item.passionprojectmod.sapphire_staff": "Sapphire Staff",
+
+  "item.passionprojectmod.sapphire_sword": "Sapphire Sword",
+  "item.passionprojectmod.sapphire_pickaxe": "Sapphire Pickaxe",
+  "item.passionprojectmod.sapphire_axe": "Sapphire Axe",
+  "item.passionprojectmod.sapphire_shovel": "Sapphire Shovel",
+  "item.passionprojectmod.sapphire_hoe": "Sapphire Hoe",
 
   "block.passionprojectmod.sapphire_block":"Block of Sapphire",
   "block.passionprojectmod.raw_sapphire_block":"Block of Raw Sapphire",
@@ -12,6 +19,18 @@
   "block.passionprojectmod.nether_sapphire_ore":"Nether Sapphire Ore",
   "block.passionprojectmod.end_stone_sapphire_ore":"Endstone Sapphire Ore",
   "block.passionprojectmod.sound_block":"Sound Block",
+
+  "block.passionprojectmod.sapphire_stairs":"Sapphire Stairs",
+  "block.passionprojectmod.sapphire_slab":"Sapphire Slab",
+  "block.passionprojectmod.sapphire_button":"Sapphire Button",
+  "block.passionprojectmod.sapphire_pressure_plate":"Sapphire Pressure Plate",
+  "block.passionprojectmod.sapphire_fence":"Sapphire Fence",
+  "block.passionprojectmod.sapphire_fence_gate":"Sapphire Fence Gate",
+  "block.passionprojectmod.sapphire_wall":"Sapphire Wall",
+  "block.passionprojectmod.sapphire_door":"Sapphire Door",
+  "block.passionprojectmod.sapphire_trapdoor":"Sapphire Trapdoor",
+
+
 
   "tooltip.passionprojectmod.metal_detector.tooltip": "Finds ores underground!",
 

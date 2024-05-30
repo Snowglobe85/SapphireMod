@@ -1,5 +1,5 @@
 package net.margaret.passionprojectmod;
-
+//MIDDLE MOUSE BUTTON = CTRL + CLICK
 import com.mojang.logging.LogUtils;
 import net.margaret.passionprojectmod.block.ModBlocks;
 import net.margaret.passionprojectmod.item.ModCreativeModeTabs;

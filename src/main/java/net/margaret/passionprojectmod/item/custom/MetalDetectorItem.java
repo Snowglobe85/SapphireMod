@@ -1,8 +1,10 @@
 package net.margaret.passionprojectmod.item.custom;
 
+import net.margaret.passionprojectmod.util.ModTags;
 import net.minecraft.client.resources.language.I18n;
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;
+import net.minecraft.tags.TagKey;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.Item;
@@ -63,11 +65,6 @@ public class MetalDetectorItem extends Item {
     }
 
     private boolean isValuableBlock(BlockState state) {
-        return state.is(Blocks.IRON_ORE)
-                || state.is(Blocks.GOLD_ORE)
-                || state.is(Blocks.DIAMOND_ORE)
-                || state.is(Blocks.DEEPSLATE_IRON_ORE)
-                || state.is(Blocks.DEEPSLATE_GOLD_ORE)
-                || state.is(Blocks.DEEPSLATE_DIAMOND_ORE);
+        return state.is(ModTags.Blocks.METAL_DETECTOR_VALUABLES);
     }
 }
