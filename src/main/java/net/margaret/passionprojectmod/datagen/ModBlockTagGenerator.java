@@ -2,8 +2,6 @@ package net.margaret.passionprojectmod.datagen;
 
 import net.margaret.passionprojectmod.PassionProjectMod;
 import net.margaret.passionprojectmod.block.ModBlocks;
-import net.margaret.passionprojectmod.datagen.loot.ModBlockLootTables;
-import net.margaret.passionprojectmod.item.ModCreativeModeTabs;
 import net.margaret.passionprojectmod.util.ModTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
@@ -11,7 +9,6 @@ import net.minecraft.tags.BlockTags;
 import net.minecraftforge.common.Tags;
 import net.minecraftforge.common.data.BlockTagsProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
-import net.minecraftforge.common.data.ForgeBlockTagsProvider;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.concurrent.CompletableFuture;

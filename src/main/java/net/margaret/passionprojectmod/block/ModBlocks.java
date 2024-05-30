@@ -19,6 +19,8 @@ import net.minecraftforge.registries.RegistryObject;
 import java.awt.*;
 import java.util.function.Supplier;
 
+import static net.minecraft.world.item.Items.registerBlock;
+
 public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, PassionProjectMod.MOD_ID);
@@ -49,16 +51,19 @@ public class ModBlocks {
             () -> new SoundBlock(BlockBehaviour.Properties.copy(Blocks.JUKEBOX)));
 
     public static final RegistryObject<Block> SAPPHIRE_STAIRS = registerblock("sapphire_stairs",
-            () -> new StairBlock( () -> ModBlocks.SAPPHIRE_BLOCK.get().defaultBlockState(),
+            () -> new StairBlock(() -> ModBlocks.SAPPHIRE_BLOCK.get().defaultBlockState(),
                     BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.AMETHYST)));
+
+
     public static final RegistryObject<Block> SAPPHIRE_SLAB = registerblock("sapphire_slab",
             () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.AMETHYST)));
 
     public static final RegistryObject<Block> SAPPHIRE_BUTTON = registerblock("sapphire_button",
-            () -> new ButtonBlock(BlockBehaviour.Properties.copy(Blocks.STONE_BUTTON).sound(SoundType.AMETHYST), BlockSetType.IRON, 10, true));
+            () -> new ButtonBlock(BlockBehaviour.Properties.copy(Blocks.STONE_BUTTON).sound(SoundType.AMETHYST),
+                    BlockSetType.IRON, 10, true));
     public static final RegistryObject<Block> SAPPHIRE_PRESSURE_PLATE = registerblock("sapphire_pressure_plate",
-            () -> new PressurePlateBlock( PressurePlateBlock.Sensitivity.EVERYTHING,BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.AMETHYST)
-                    ,BlockSetType.IRON));
+            () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.AMETHYST),
+                    BlockSetType.IRON));
 
     public static final RegistryObject<Block> SAPPHIRE_FENCE = registerblock("sapphire_fence",
             () -> new FenceBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.AMETHYST)));
@@ -71,7 +76,6 @@ public class ModBlocks {
             () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.AMETHYST).noOcclusion(), BlockSetType.IRON));
     public static final RegistryObject<Block> SAPPHIRE_TRAPDOOR = registerblock("sapphire_trapdoor",
             () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.AMETHYST).noOcclusion(), BlockSetType.IRON));
-
 
 
 
